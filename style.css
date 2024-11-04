@@ -1,0 +1,49 @@
+body {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 20vh;
+    width: 100%;
+    background-color:rgb(38, 187, 233) ;
+
+}
+
+nav {
+    width: 30%;
+    height: 50px;
+    background-color: #a84cf8;
+    margin: 0 auto;
+}
+
+
+#aside1 {
+    width: 50%;
+    height: 70vh;
+    background-color: pink;
+    float: left;
+}
+
+#aside2 {
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(188, 37, 62);
+    float: left;
+}
+
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(243, 58, 86);
+    position: fixed;
+    bottom: 0;
+}
